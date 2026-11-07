@@ -34,7 +34,7 @@ jobs:
         uses: ./.github/actions/build-card
         with:
           name: Oluwatofunmi
-          message: Built automatically by my own GitHub Action
+          message: Automated by my very own GitHub Action
 
       - name: Package the website
         uses: actions/upload-pages-artifact@v3
