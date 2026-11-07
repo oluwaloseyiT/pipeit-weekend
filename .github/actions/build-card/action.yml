@@ -58,7 +58,7 @@ runs:
         EOF
         echo "Page written to site/index.html"
 
-    - name: This action brings the webpage to live.
+    - name: Write a summary on the run page
       shell: bash
       run: |
         echo "### ✅ Status card built" >> "$GITHUB_STEP_SUMMARY"
